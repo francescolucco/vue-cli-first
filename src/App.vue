@@ -1,20 +1,32 @@
 <template>
-  <div>
-
+  <div class="container">
+    <Header />
+    <Main />
+    <Footer />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-
+    Header,
+    Main,
+    Footer,
   }
 }
 </script>
 
 <style>
-
+  .container{
+    width: 80%;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+  }
 </style>
