@@ -1,10 +1,10 @@
 <template>
-  <h1>Sono il tuo nuovo header</h1>
+  <h1>La mia prima app con Vue CLI!</h1>
 </template>
 
 <script>
 export default {
-   name: 'Header'
+   name: 'Title'
 }
 </script>
 
